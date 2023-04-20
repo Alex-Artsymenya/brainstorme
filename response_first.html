@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/response.css">
+    <link rel="stylesheet" href="/css/burger.css">
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Montserrat:wght@400;500;600;700;800&family=Poppins&family=Raleway:wght@400;500&family=Roboto:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link href="//db.onlinewebfonts.com/c/107a82b03afe661cb8ef268bd146c38c?family=Nevan+RUS" rel="stylesheet"
+        type="text/css" />
+    <title>BRAINSTORM</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="body-wraper">
+            <header class="header">
+                <div class="burg-container header__container">
+                    <a href="/index.html" class="logo">
+                        <img class="logo__img" src="/img/logo.svg" alt="Логотип">
+                    </a>
+
+                    <button class="header__burger-btn" id="burger">
+                        <span></span><span></span><span></span>
+                    </button>
+
+                    <nav class="menu" id="menu">
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a class="menu__link" href="/company.html">
+                                    Компания
+                                </a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="/services.html">
+                                    Услуги
+                                </a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="/potfolio.html">
+                                    Портфолио
+                                </a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="/vacancies.html">
+                                    вакансии
+                                </a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="/contacts.html">
+                                    контакты
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+        </div>
+        <main class="page">
+            <section class="page__services services">
+                <div class="services__container">
+                    <div class="company__header heder-block">
+                        <a class="btn__link" href="/vacancies.html">
+                            <div class="btn__block">
+                                <img class="btn__img" src="/img/response-btn.svg" alt="btn">
+                                <p class="btn__text">назад</p>
+                            </div>
+                        </a>
+                        <h2 class="heder-block__title">Интернет-маркетолог</h2>
+                        <div class="heder-block__sub-title">от 1 500 до 2 000 USD на руки</div>
+                        <div class="textcols">
+                            <div class="textcols-item">
+                                <p class="title__text">требуемый опыт</p>
+                                <p class="sub-title__text">1-3 года</p>
+                            </div>
+                            <div class="textcols-item">
+                                <p class="title__text">тип занятости</p>
+                                <p class="sub-title__text">Полная занятость, полный день</p>
+                            </div>
+                        </div>
+                        <div class="response__body">
+                            <div class="work__column">
+                                <div class="work_icon">
+                                    <img src="/img/Ellipse.svg" alt="Ellipse">
+                                </div>
+                                <div class="response__text">
+                                    <div class="response__title">Обязанности:</div>
+                                    <div class="response__sub-title">
+                                        <p>Ведение рекламных компаний в сети интернет</p>
+                                        <p>Работа с большими бюджетами</p>
+                                        <p> А/Б тестирования</p>
+                                        <p>Составление ТЗ для дизайнеров</p>
+                                        <p>Выполнение KPI</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="work__column">
+                                <div class="work_icon">
+                                    <img src="/img/Ellipse.svg" alt="Ellipse">
+                                </div>
+                                <div class="response__text">
+                                    <div class="response__title">Требования:</div>
+                                    <div class="response__sub-title">
+                                        <p>Подтвержденный опыт от года с любым из источников трафика (FB, Tik-Tok, ВК,
+                                            MyTarget, РСЯ, Гугл, пуши, тизерки и тд)</p>
+                                        <p>Генерирование новых связок, масштабирование уже работающих</p>
+                                        <p>Опыт работы с бюджетами от 50.000$ в мес.</p>
+                                        <p>Умение оптимизировать трафик</p>
+                                        <p>Желание постоянно расти</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="work__column">
+                                <div class="work_icon">
+                                    <img src="/img/Ellipse.svg" alt="Ellipse">
+                                </div>
+                                <div class="response__text">
+                                    <div class="response__title">Условия:</div>
+                                    <div class="response__sub-title">
+                                        <p>Работа в офисе с 10.00 до 18.00 либо с 9.00 до 17.00</p>
+                                        <p>Оклад +KPI</p>
+                                        <p>Официальное трудоустройство</p>
+                                        <p>Работа с белыми продуктами в сфере онлайн образования.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+            <section class="page_work">
+                <div class="work__image _ibg">
+                    <img src="/img/Slice4.svg" alt="Slice">
+                    <img class="mobile-img" src="/img/mobile-slice4.svg" alt="slice">
+                </div>
+                <div class="apply__container">
+                    <div class="company__header heder-block">
+                        <h2 class="apply-block__title">Откликнуться на вакансию <br> можно, написав нам на почту<br> или
+                            связаться
+                            через форму:</h2>
+                    </div>
+                    <div class="main-block__buttons work-btn ">
+                        <a href="#" class="main-block__button work-button">обсудить проект</a>
+                    </div>
+                </div>
+            </section>
+            <form id="tg">
+                <div class="form__container">
+                    <h3 class="form__name">ОТКЛИКНУТЬСЯ НА ВАКАНСИЮ</h3>
+                    <div class="first__container">
+                        <div class="form__item item-1">
+                            <div class="form__title">ВашЕ ИМЯ</div>
+                            <div class="form__sub-title">
+                                <form>
+                                    <input class="form__input" type="text" id="name" name="name" required>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="form__item item-2">
+                            <div class="form__title">Ваш email</div>
+                            <div class="form__sub-title">
+
+                                <input class="form__input" type="email" id="email" name="email" required>
+
+                            </div>
+                        </div>
+                        <div class="form__item item-3">
+                            <div class="form__title">Ваш номер телЕФОНА</div>
+                            <div class="form__sub-title">
+
+                                <input class="form__input" type="number" id="phone" name="phone" required>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="second__container">
+                        <div class="form__item item-4">
+                            <div class="form__title">Прикрепите ваше резюме</div>
+                            <div class="form__sub-title">
+
+                                <input class="form__input" type="text" id="resume" name="resume" required>
+
+                            </div>
+                        </div>
+                        <div class="form__item item-5">
+                            <div class="form__title">ОПИШИТЕ , ЧТО ВЫ ХОТИТЕ УЗНАТЬ</div>
+                            <div class="form__sub-title">
+
+                                <input class="form__input last-input" type="text" id="text" name="info">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form__checkbox">
+                        <input class="checkbox__box" type="checkbox" id="checkbox" required>
+                        <p class="checkbox__text">Нажимая кнопку «Отправить» Вы соглашаетесь на <span
+                                style="color:#F54473">обработку персональных
+                                данных</span> </p>
+                    </div>
+
+                    <button type="submit" class="form__buttons">отправить</button>
+
+                    <div class="alert" id="success">
+                        <div class="alert__text">Заявка отправлена!</div>
+                    </div>
+                </div>
+            </form>
+
+
+        </main>
+        <footer class="footer">
+            <div class="footer__top">
+                <div class="footer__container ">
+                    <div class="header__container footer-nav">
+                        <a href="/index.html" class="header__logo footer__logo">
+                            <img src="/img/logo-footer.svg" alt="logo">
+                        </a>
+                        <nav class="header_menu footer-menu">
+                            <ul class="menu_list footer_list ">
+                                <li class="menu_item footer-item">
+                                    <a href="/company.html" class="menu_link footer-link">Компания</a>
+                                </li>
+                                <li class="menu_item footer-item">
+                                    <a href="/potfolio.html" class="menu_link footer-link">Портфолио</a>
+                                </li>
+                                <li class="menu_item footer-item">
+                                    <a href="/vacancies.html" class="menu_link footer-link">Вакансии</a>
+                                </li>
+                                <li class="menu_item footer-item">
+                                    <a href="/contacts.html" class="menu_link footer-link">Контакты</a>
+                                </li>
+                                <li class="menu_item footer-item">
+                                    <a href="/services.html" class="menu_link footer-link">Услуги</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="footer__email">
+                            <div class="footer__column">
+                                <div class="footer__email">
+                                    <a href="mailto:info@brainstorm.systems" class="email-link">info@brainstorm.systems
+                                    </a>
+                                </div>
+                                <div class="footer__email">
+                                    <a href="mailto:info@brainstorm.systems" class="email-link">info@brainstorm.systems
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__text">
+                        <div class="footer__info">ООО "МЕДИА ГРУПП" ИНН 6732209435</div>
+                        <div class="footer__info">ОГРН 1216700004982 ОКПО 48560702.</div>
+                        <div class="footer__info">Если у вас остались вопросы обращайтесь по e-mail адресу
+                            info@brainstorm.systems</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+</body>
+<script src="/script/burger.js"></script>
+<script src="/script/tgresume.js"></script>
+
+</html>

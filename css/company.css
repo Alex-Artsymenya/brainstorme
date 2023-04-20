@@ -1,0 +1,145 @@
+.header{
+    background-color: #181818;
+}
+.project {
+    margin: 200px 0px 100px 0px;
+}
+@media(max-width:768px){
+    .project {
+        margin: 150px 0px 50px 0px;
+    }
+
+} 
+.item-block__title{
+    text-align: center;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 70px;
+    padding-top: 50px;
+}
+.heder-block__title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 63px;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #1F1341;
+}
+.heder-block__sub-title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 170%;
+    color: #1F1341;
+    text-transform: none;
+    margin-bottom: 51px;
+}
+.heder-block {
+    text-align: start;
+    margin-bottom: 75px;
+}
+
+@media(max-width:768px){
+    .heder-block {
+        text-align: center;
+    }
+    .heder-block__title{
+        font-size: 24px;
+        line-height: 29px;
+        margin-bottom: 14px;
+
+    }
+    .heder-block__sub-title{
+        font-size: 14px;
+        line-height: 171%;
+        margin-bottom: 0px;
+
+    }
+}
+.cards__body{
+    background-color: #181818;
+}
+
+.container {
+    max-width: 1190px;
+    margin: 0px auto;
+    padding: 0px 15px 170px 180px;
+    box-sizing: content-box;
+    display: grid;
+    column-gap: 440px;
+    row-gap: 60px;
+    padding-bottom: 168px;
+}
+  
+.company__item {
+    background-color: #181818;
+}
+  
+.item-1 {
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+}
+  
+.item-2 {
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+}
+  
+.item-3 {
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+}
+
+.item-4 {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+}
+
+.item__text{
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 135%;
+}
+
+@media (max-width: 1023px) {
+    .container{
+        text-align: center;
+        padding: 0px 0px 80px 0px;
+    }
+    .item-block__title{
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .item__text{
+        font-size: 14px;
+        line-height: 23px;
+    }
+    .item-1 {
+        grid-row: 1 / 2;
+        grid-column: 1 / 1;
+    }
+      
+    .item-2 {
+        grid-row: 2 / 2;
+        grid-column: 1 / 1;
+    }
+      
+    .item-3 {
+        grid-row: 3 / 3;
+        grid-column: 1 / 1;
+    }
+    
+    .item-4 {
+        grid-row: 4 / 4;
+        grid-column: 1 / 1;
+    }
+}

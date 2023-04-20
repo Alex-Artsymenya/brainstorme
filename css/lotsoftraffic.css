@@ -1,0 +1,66 @@
+.lotsoftraffic__img {
+    display: flex;
+    flex-direction: column;
+    max-width: 322px;
+    min-width: 161px;
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 155px;
+}
+.lost__padding{
+    padding: 0;
+}
+
+.logo__page-img {
+    display: flex;
+    flex-direction: column;
+    max-width: 412px;
+    min-width: 213px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 180px;
+}
+.logo-img{
+    display: flex;
+    flex-direction: column;
+    max-width: 567px;
+    min-width: 293px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 245px;
+
+}
+.margin_top{
+    margin-top: 120px;
+}
+@media (max-width: 1325px){
+    .gofitness__body {
+        flex-direction: column;
+        align-items: center;
+        padding: 116px 100px;
+        gap: 80px;
+        margin-bottom: 80px;
+    }
+    .margin_top{
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 768px){
+    .gofitness__container {
+        padding: 0px 20px 0px 20px;
+    }
+    .lotsoftraffic__img {
+        padding: 0px 81px 0px 81px;
+        margin-bottom: 72px;
+    }
+    .logo-img {
+        margin-bottom: 80px;
+    }
+    .logo__page-img {
+        padding: 0px 81px 0px 81px;
+        margin-bottom: 50px;
+    }
+}
