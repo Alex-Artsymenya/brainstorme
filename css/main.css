@@ -696,7 +696,6 @@
 }
 
 .work__title {
-    font-variant: small-caps;
     font-style: normal;
     font-weight: 500;
     font-size: 19px;
@@ -707,7 +706,6 @@
 }
 
 .work__sub-title {
-    font-variant: small-caps;
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
