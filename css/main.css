@@ -696,12 +696,13 @@
 }
 
 .work__title {
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 19px;
     line-height: 23px;
     letter-spacing: 0.03em;
-    /*font-variant: small-caps;*/
+    font-variant: small-caps;
     margin-bottom: 10px;
     color: #FFFFFF;
 }
